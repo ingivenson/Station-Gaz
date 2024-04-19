@@ -1,0 +1,4 @@
+pour connecter  comme administrateur
+     
+     username: admin
+     password : admin

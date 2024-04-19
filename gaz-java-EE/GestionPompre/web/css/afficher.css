@@ -1,0 +1,69 @@
+table {
+  margin-inline: 5%;
+  width: 155vh;
+  border-collapse: collapse;
+  height: 50vh;
+  margin-top: 70px;
+ 
+}
+th, td {
+   
+  padding: 8px;
+  text-align: center;
+  font-size: 14px;
+}
+
+th {
+  font-size: 14px;
+  background-color: #f2f2f2;
+  color:black;
+}
+
+/* Styles pour les lignes impaires */
+tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+/* Styles pour les lignes paires */
+tr:nth-child(even) {
+  background-color: #e6e6e6;
+}
+td:nth-child(1), th:nth-child(1) {
+  width: 12%; /* Première colonne */
+}
+td:nth-child(2), th:nth-child(2) {
+  width: 15%; /* Deuxième colonne */
+}
+
+td:nth-child(3), th:nth-child(3) {
+  width: 13%; /* Troisième colonne */
+}
+td:nth-child(4), th:nth-child(4) {
+  width: 13%; /* Deuxième colonne */
+}
+
+td:nth-child(5), th:nth-child(5) {
+  width: 13%; /* Troisième colonne */
+
+}
+td:nth-child(6), th:nth-child(6) {
+  width: 16%; /* Deuxième colonne */
+}
+
+td:nth-child(7), th:nth-child(7) {
+  width: 16%; /* Troisième colonne */
+}
+tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+/* Styles pour les lignes paires */
+tr:nth-child(even) {
+  background-color: #e6e6e6;
+}
+
+/* Style pour les lignes au survol */
+tr:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}

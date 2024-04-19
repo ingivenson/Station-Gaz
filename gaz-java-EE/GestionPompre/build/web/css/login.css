@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(../images/catex.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image:blur(1px) ;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    max-width: 800px;
+    background-color: #dad7d7;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 80%;
+    border-radius: 5%;
+   
+}
+
+.image-container {
+    padding-left: -4%;
+    width: 60%; /* Ajuster la largeur de l'image par rapport au conteneur */
+    margin-right: 20px;
+     
+    filter: blur(1px);   
+}
+
+img {
+    border-radius: 5%;
+    width: 90%;
+   height: 0%;
+    display: block;
+}
+
+form {
+    width: 40%; /* Ajuster la largeur du formulaire par rapport au conteneur */
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
